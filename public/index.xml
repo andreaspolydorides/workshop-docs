@@ -2,16 +2,16 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>DIY-AT Research :: PhD Workshop</title>
-    <link>http://localhost:1313/index.html</link>
+    <link>https://example.org/index.html</link>
     <description>This site contains information on the prototypes and studies that make up part of my PhD research.</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://example.org/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Maker&#39;s Workshop</title>
-      <link>http://localhost:1313/makers-workshop/index.html</link>
+      <link>https://example.org/makers-workshop/index.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/makers-workshop/index.html</guid>
+      <guid>https://example.org/makers-workshop/index.html</guid>
       <description>This workshop is part of my PhD research in DIY assistive technology (DIY-AT). Following an interview process with multiple wheelchair users, seating comfort of manual chairs was identified as a common need. I have since designed some prototypes that are meant to be DIY (“do it yourself”). Getting these prototypes to finished designs, I need to better understand what format they need to be distributed at. Are they better served as a simple “DIY” kit? Are they simple enough to source and assemble individually by users?</description>
     </item>
   </channel>
