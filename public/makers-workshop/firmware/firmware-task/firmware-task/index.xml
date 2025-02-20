@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Uploading firmware to the PCB :: My New Hugo Site</title>
+    <link>http://localhost:1313/makers-workshop/firmware/firmware-task/firmware-task/index.html</link>
+    <description>Have you done the required reading? It’s here&#xA;Tools and Parts Needed: Computer USB-A to micro-USB cable PCB NTC100K Thermistor DHT11 Humidity Sensor Uploading and Configuring Firmware: The firmware for the Raspberry Pi Pico on your PCB is based on a programming language called CircuitPython. To upload our code we need to prepare the Pico to accept CircuitPython code. If you’re using a Pico, download this, and if you’re using a Pico W, download this. If you’re unsure which Pico you have, check the pictures below. Now click here to download the firmware. If you want to have a look at what it does, it’s on our Github. Keep the bootsel button pressed as you connect the Pi Pico to the computer. The button is showed below. The Pico should now show up as a drive in your computer’s file manager name “RPI-RP2” or something similar. Drag the Circuitpython (.uf2) file to the “RPI-RP2” drive. Note you should drag the CircuitPython file and not the firmware. The drive should reset and should now appear as “CIRCUITPYTHON”. Now to finish off, drag the firmware file we downloaded to the “CIRCUITPYTHON” drive. Testing Firmware:</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <atom:link href="http://localhost:1313/makers-workshop/firmware/firmware-task/firmware-task/index.xml" rel="self" type="application/rss+xml" />
+  </channel>
+</rss>

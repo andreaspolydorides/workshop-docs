@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="en-us" dir="ltr" itemscope itemtype="http://schema.org/Article" data-r-output-format="html">
+  <head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+    <meta charset="utf-8">
+    <meta name="viewport" content="height=device-height, width=device-width, initial-scale=1.0, minimum-scale=1.0">
+    <meta name="generator" content="Hugo 0.143.1">
+    <meta name="generator" content="Relearn 7.3.2+8b70bdf31acd361aacf17a0e775504551af67b83">
+    <meta name="description" content="Tools and Parts Needed: Computer USB-A to micro-USB cable PCB NTC100K Thermistor DHT11 Humidity Sensor Uploading and Configuring Firmware: The firmware for the Raspberry Pi Pico on your PCB is based on a programming language called CircuitPython. To upload our code we need to prepare the Pico to accept CircuitPython code. If you’re using a Pico, download this, and if you’re using a Pico W, download this. If you’re unsure which Pico you have, check the pictures below. Now click here to download the firmware. If you want to have a look at what it does, it’s on our Github. Keep the bootsel button pressed as you connect the Pi Pico to the computer. The button is showed below. The Pico should now show up as a drive in your computer’s file manager name “RPI-RP2” or something similar. Drag the Circuitpython (.uf2) file to the “RPI-RP2” drive. Note you should drag the CircuitPython file and not the firmware. The drive should reset and should now appear as “CIRCUITPYTHON”. Now to finish off, drag the firmware file we downloaded to the “CIRCUITPYTHON” drive. Testing Firmware: In Visual Studio Code (VS Code), navigate to Extensions (Command/Ctrl&#43;Shift&#43;X) and install the ‘Serial Monitor’ extension by Microsoft With the Raspberry Pi Pico connected and with the code uploaded to it, open a new terminal (within VS Code) and switch to the Serial Monitor tab You should be seeing temperature values if all is going well. If you are not, check that: the Raspberry Pi Pico is showing up as a Circuitpython device, the “.py” file is in the base directory as you open it up, the code itself has print statements. e.g.: print(f&#34;Temperature: {temp:.1f}°C&#34;).">
+    <meta name="author" content="">
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:title" content="Firmware Flashing to the Pico :: PhD Workshop">
+    <meta name="twitter:description" content="Tools and Parts Needed: Computer USB-A to micro-USB cable PCB NTC100K Thermistor DHT11 Humidity Sensor Uploading and Configuring Firmware: The firmware for the Raspberry Pi Pico on your PCB is based on a programming language called CircuitPython. To upload our code we need to prepare the Pico to accept CircuitPython code. If you’re using a Pico, download this, and if you’re using a Pico W, download this. If you’re unsure which Pico you have, check the pictures below. Now click here to download the firmware. If you want to have a look at what it does, it’s on our Github. Keep the bootsel button pressed as you connect the Pi Pico to the computer. The button is showed below. The Pico should now show up as a drive in your computer’s file manager name “RPI-RP2” or something similar. Drag the Circuitpython (.uf2) file to the “RPI-RP2” drive. Note you should drag the CircuitPython file and not the firmware. The drive should reset and should now appear as “CIRCUITPYTHON”. Now to finish off, drag the firmware file we downloaded to the “CIRCUITPYTHON” drive. Testing Firmware: In Visual Studio Code (VS Code), navigate to Extensions (Command/Ctrl&#43;Shift&#43;X) and install the ‘Serial Monitor’ extension by Microsoft With the Raspberry Pi Pico connected and with the code uploaded to it, open a new terminal (within VS Code) and switch to the Serial Monitor tab You should be seeing temperature values if all is going well. If you are not, check that: the Raspberry Pi Pico is showing up as a Circuitpython device, the “.py” file is in the base directory as you open it up, the code itself has print statements. e.g.: print(f&#34;Temperature: {temp:.1f}°C&#34;).">
+    <meta property="og:url" content="http://localhost:1313/makers-workshop/firmware/index.html">
+    <meta property="og:site_name" content="PhD Workshop">
+    <meta property="og:title" content="Firmware Flashing to the Pico :: PhD Workshop">
+    <meta property="og:description" content="Tools and Parts Needed: Computer USB-A to micro-USB cable PCB NTC100K Thermistor DHT11 Humidity Sensor Uploading and Configuring Firmware: The firmware for the Raspberry Pi Pico on your PCB is based on a programming language called CircuitPython. To upload our code we need to prepare the Pico to accept CircuitPython code. If you’re using a Pico, download this, and if you’re using a Pico W, download this. If you’re unsure which Pico you have, check the pictures below. Now click here to download the firmware. If you want to have a look at what it does, it’s on our Github. Keep the bootsel button pressed as you connect the Pi Pico to the computer. The button is showed below. The Pico should now show up as a drive in your computer’s file manager name “RPI-RP2” or something similar. Drag the Circuitpython (.uf2) file to the “RPI-RP2” drive. Note you should drag the CircuitPython file and not the firmware. The drive should reset and should now appear as “CIRCUITPYTHON”. Now to finish off, drag the firmware file we downloaded to the “CIRCUITPYTHON” drive. Testing Firmware: In Visual Studio Code (VS Code), navigate to Extensions (Command/Ctrl&#43;Shift&#43;X) and install the ‘Serial Monitor’ extension by Microsoft With the Raspberry Pi Pico connected and with the code uploaded to it, open a new terminal (within VS Code) and switch to the Serial Monitor tab You should be seeing temperature values if all is going well. If you are not, check that: the Raspberry Pi Pico is showing up as a Circuitpython device, the “.py” file is in the base directory as you open it up, the code itself has print statements. e.g.: print(f&#34;Temperature: {temp:.1f}°C&#34;).">
+    <meta property="og:locale" content="en_us">
+    <meta property="og:type" content="website">
+    <meta itemprop="name" content="Firmware Flashing to the Pico :: PhD Workshop">
+    <meta itemprop="description" content="Tools and Parts Needed: Computer USB-A to micro-USB cable PCB NTC100K Thermistor DHT11 Humidity Sensor Uploading and Configuring Firmware: The firmware for the Raspberry Pi Pico on your PCB is based on a programming language called CircuitPython. To upload our code we need to prepare the Pico to accept CircuitPython code. If you’re using a Pico, download this, and if you’re using a Pico W, download this. If you’re unsure which Pico you have, check the pictures below. Now click here to download the firmware. If you want to have a look at what it does, it’s on our Github. Keep the bootsel button pressed as you connect the Pi Pico to the computer. The button is showed below. The Pico should now show up as a drive in your computer’s file manager name “RPI-RP2” or something similar. Drag the Circuitpython (.uf2) file to the “RPI-RP2” drive. Note you should drag the CircuitPython file and not the firmware. The drive should reset and should now appear as “CIRCUITPYTHON”. Now to finish off, drag the firmware file we downloaded to the “CIRCUITPYTHON” drive. Testing Firmware: In Visual Studio Code (VS Code), navigate to Extensions (Command/Ctrl&#43;Shift&#43;X) and install the ‘Serial Monitor’ extension by Microsoft With the Raspberry Pi Pico connected and with the code uploaded to it, open a new terminal (within VS Code) and switch to the Serial Monitor tab You should be seeing temperature values if all is going well. If you are not, check that: the Raspberry Pi Pico is showing up as a Circuitpython device, the “.py” file is in the base directory as you open it up, the code itself has print statements. e.g.: print(f&#34;Temperature: {temp:.1f}°C&#34;).">
+    <meta itemprop="wordCount" content="279">
+    <title>Firmware Flashing to the Pico :: PhD Workshop</title>
+    <link href="/makers-workshop/firmware/index.xml" rel="alternate" type="application/rss+xml" title="Firmware Flashing to the Pico :: PhD Workshop">
+    <link href="/makers-workshop/firmware/index.print.html" rel="alternate" type="text/html" title="Firmware Flashing to the Pico :: PhD Workshop">
+    <link href="/css/fontawesome-all.min.css?1740052416" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/css/fontawesome-all.min.css?1740052416" rel="stylesheet"></noscript>
+    <link href="/css/auto-complete.css?1740052416" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/css/auto-complete.css?1740052416" rel="stylesheet"></noscript>
+    <link href="/css/perfect-scrollbar.min.css?1740052416" rel="stylesheet">
+    <link href="/css/theme.css?1740052416" rel="stylesheet">
+    <link href="/css/format-html.css?1740052416" rel="stylesheet" id="R-format-style">
+    <script>
+      window.relearn = window.relearn || {};
+      window.relearn.relBasePath='..\/..';
+      window.relearn.relBaseUri='..\/..';
+      window.relearn.absBaseUri='http:\/\/localhost:1313';
+      window.relearn.min = ``;
+      window.relearn.disableAnchorCopy=false;
+      window.relearn.disableAnchorScrolling=false;
+      // variant stuff
+      window.relearn.themevariants = [ 'blue' ];
+      window.relearn.customvariantname = "my-custom-variant";
+      window.relearn.changeVariant = function(variant) {
+        var oldVariant = document.documentElement.dataset.rThemeVariant;
+        window.localStorage.setItem(window.relearn.absBaseUri + "/variant", variant);
+        document.documentElement.dataset.rThemeVariant = variant;
+        if (oldVariant != variant) {
+          document.dispatchEvent( new CustomEvent('themeVariantLoaded', { detail: { variant, oldVariant } }) );
+        }
+      }
+      window.relearn.markVariant = function() {
+        var variant = window.localStorage.getItem(window.relearn.absBaseUri + "/variant");
+        var select = document.querySelector("#R-select-variant");
+        if (select) {
+          select.value = variant;
+        }
+      }
+      window.relearn.initVariant = function() {
+        var variant = window.localStorage.getItem(window.relearn.absBaseUri + "/variant") ?? "";
+        if( variant == window.relearn.customvariantname ){
+        }else if( !variant || !window.relearn.themevariants.includes(variant) ){
+          variant = window.relearn.themevariants[0];
+          window.localStorage.setItem(window.relearn.absBaseUri + "/variant", variant);
+        }
+        document.documentElement.dataset.rThemeVariant = variant;
+      }
+      window.relearn.initVariant();
+      window.relearn.markVariant();
+      // translations
+      window.T_Copy_to_clipboard = `Copy to clipboard`;
+      window.T_Copied_to_clipboard = `Copied to clipboard!`;
+      window.T_Copy_link_to_clipboard = `Copy link to clipboard`;
+      window.T_Link_copied_to_clipboard = `Copied link to clipboard!`;
+      window.T_Reset_view = `Reset view`;
+      window.T_View_reset = `View reset!`;
+      window.T_No_results_found = `No results found for "{0}"`;
+      window.T_N_results_found = `{1} results found for "{0}"`;
+    </script>
+  </head>
+  <body class="mobile-support html" data-url="/makers-workshop/firmware/index.html">
+    <div id="R-body" class="default-animation">
+      <div id="R-body-overlay"></div>
+      <nav id="R-topbar">
+        <div class="topbar-wrapper">
+          <div class="topbar-sidebar-divider"></div>
+          <div class="topbar-area topbar-area-start" data-area="start">
+            <div class="topbar-button topbar-button-sidebar" data-content-empty="disable" data-width-s="show" data-width-m="hide" data-width-l="hide"><button class="topbar-control" onclick="toggleNav()" type="button" title="Menu (CTRL&#43;ALT&#43;n)"><i class="fa-fw fas fa-bars"></i></button>
+            </div>
+            <div class="topbar-button topbar-button-toc" data-content-empty="hide" data-width-s="show" data-width-m="show" data-width-l="show"><button class="topbar-control" onclick="toggleTopbarFlyout(this)" type="button" title="Table of Contents (CTRL&#43;ALT&#43;t)"><i class="fa-fw fas fa-list-alt"></i></button>
+              <div class="topbar-content">
+                <div class="topbar-content-wrapper">
+<nav class="TableOfContents">
+  <ul>
+    <li><a href="#tools-and-parts-needed">Tools and Parts Needed:</a></li>
+    <li><a href="#uploading-and-configuring-firmware">Uploading and Configuring Firmware:</a></li>
+    <li><a href="#testing-firmware">Testing Firmware:</a></li>
+  </ul>
+</nav>
+                </div>
+              </div>
+            </div>
+          </div>
+          <ol class="topbar-breadcrumbs breadcrumbs highlightable" itemscope itemtype="http://schema.org/BreadcrumbList"><li
+            itemscope itemtype="https://schema.org/ListItem" itemprop="itemListElement"><a itemprop="item" href="/index.html"><span itemprop="name">DIY-AT Research</span></a><meta itemprop="position" content="1">&nbsp;>&nbsp;</li><li
+            itemscope itemtype="https://schema.org/ListItem" itemprop="itemListElement"><a itemprop="item" href="/makers-workshop/index.html"><span itemprop="name">Maker&#39;s Workshop</span></a><meta itemprop="position" content="2">&nbsp;>&nbsp;</li><li
+            itemscope itemtype="https://schema.org/ListItem" itemprop="itemListElement"><span itemprop="name">Firmware Flashing to the Pico</span><meta itemprop="position" content="3"></li>
+          </ol>
+          <div class="topbar-area topbar-area-end" data-area="end">
+            <div class="topbar-button topbar-button-print" data-content-empty="disable" data-width-s="area-more" data-width-m="show" data-width-l="show"><a class="topbar-control" href="/makers-workshop/firmware/index.print.html" title="Print whole chapter (CTRL&#43;ALT&#43;p)"><i class="fa-fw fas fa-print"></i></a>
+            </div>
+            <div class="topbar-button topbar-button-prev" data-content-empty="disable" data-width-s="show" data-width-m="show" data-width-l="show"><a class="topbar-control" href="/makers-workshop/soldering/soldering-task/index.html" title="Soldering the PCB (🡐)"><i class="fa-fw fas fa-chevron-left"></i></a>
+            </div>
+            <div class="topbar-button topbar-button-next" data-content-empty="disable" data-width-s="show" data-width-m="show" data-width-l="show"><a class="topbar-control" href="/makers-workshop/printing/index.html" title="3D Print a Personalised Cushion (🡒)"><i class="fa-fw fas fa-chevron-right"></i></a>
+            </div>
+            <div class="topbar-button topbar-button-more" data-content-empty="hide" data-width-s="show" data-width-m="show" data-width-l="show"><button class="topbar-control" onclick="toggleTopbarFlyout(this)" type="button" title="More"><i class="fa-fw fas fa-ellipsis-v"></i></button>
+              <div class="topbar-content">
+                <div class="topbar-content-wrapper">
+                  <div class="topbar-area topbar-area-more" data-area="more">
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </nav>
+      <div id="R-main-overlay"></div>
+      <main id="R-body-inner" class="highlightable makers-workshop" tabindex="-1">
+        <div class="flex-block-wrapper">
+<article class="default">
+  <header class="headline">
+  </header>
+
+<h1 id="firmware-flashing-to-the-pico">Firmware Flashing to the Pico</h1>
+
+<h2 id="tools-and-parts-needed">Tools and Parts Needed:</h2>
+<ul>
+<li>Computer</li>
+<li>USB-A to micro-USB cable</li>
+<li>PCB</li>
+<li>NTC100K Thermistor</li>
+<li>DHT11 Humidity Sensor</li>
+</ul>
+<hr>
+<h2 id="uploading-and-configuring-firmware">Uploading and Configuring Firmware:</h2>
+<ol>
+<li>The firmware for the Raspberry Pi Pico on your PCB is based on a programming language called CircuitPython. To upload our code we need to prepare the Pico to accept CircuitPython code. If you&rsquo;re using a Pico, download this, and if you&rsquo;re using a Pico W, download this. If you&rsquo;re unsure which Pico you have, check the pictures below.</li>
+<li>Now click <a href="static/firmware-files/test.py" download="test.py" target="_blank" rel="noopener noreferrer">here</a> to download the firmware. If you want to have a look at what it does, it&rsquo;s on our Github.</li>
+<li>Keep the bootsel button pressed as you connect the Pi Pico to the computer. The button is showed below.</li>
+<li>The Pico should now show up as a drive in your computer&rsquo;s file manager name &ldquo;RPI-RP2&rdquo; or something similar.</li>
+<li>Drag the Circuitpython (.uf2) file to the &ldquo;RPI-RP2&rdquo; drive. Note you should drag the CircuitPython file and not the firmware.</li>
+<li>The drive should reset and should now appear as &ldquo;CIRCUITPYTHON&rdquo;.</li>
+<li>Now to finish off, drag the firmware file we downloaded to the &ldquo;CIRCUITPYTHON&rdquo; drive.</li>
+</ol>
+<h2 id="testing-firmware">Testing Firmware:</h2>
+<ol>
+<li>In Visual Studio Code (VS Code), navigate to Extensions (Command/Ctrl+Shift+X) and install the &lsquo;Serial Monitor&rsquo; extension by Microsoft</li>
+<li>With the Raspberry Pi Pico connected and with the code uploaded to it, open a new terminal (within VS Code) and switch to the Serial Monitor tab</li>
+<li>You should be seeing temperature values if all is going well. If you are not, check that:
+<ul>
+<li>the Raspberry Pi Pico is showing up as a Circuitpython device,</li>
+<li>the &ldquo;.py&rdquo; file is in the base directory as you open it up,</li>
+<li>the code itself has print statements. e.g.: <code>print(f&quot;Temperature: {temp:.1f}°C&quot;)</code>.</li>
+</ul>
+</li>
+</ol>
+
+  <footer class="footline">
+  </footer>
+</article>
+        </div>
+      </main>
+    </div>
+    <aside id="R-sidebar" class="default-animation">
+      <div id="R-header-topbar" class="default-animation"></div>
+      <div id="R-header-wrapper" class="default-animation">
+        <div id="R-header" class="default-animation">
+          <a id="R-logo" class="R-default" href="/index.html">
+            PhD Workshop
+          </a>
+        </div>
+        <script>
+          window.index_js_url="/searchindex.en.js?1740052416";
+        </script>
+        <search><form action="/search/index.html" method="get">
+          <div class="searchbox default-animation">
+            <button class="search-detail" type="submit" title="Search (CTRL+ALT+f)"><i class="fas fa-search"></i></button>
+            <label class="a11y-only" for="R-search-by">Search</label>
+            <input data-search-input id="R-search-by" name="search-by" class="search-by" type="search" placeholder="Search...">
+            <button class="search-clear" type="button" data-search-clear="" title="Clear search"><i class="fas fa-times" title="Clear search"></i></button>
+          </div>
+        </form></search>
+        <script>
+          var contentLangs=['en'];
+        </script>
+        <script src="/js/auto-complete.js?1740052416" defer></script>
+        <script src="/js/lunr/lunr.min.js?1740052416" defer></script>
+        <script src="/js/lunr/lunr.stemmer.support.min.js?1740052416" defer></script>
+        <script src="/js/lunr/lunr.multi.min.js?1740052416" defer></script>
+        <script src="/js/lunr/lunr.en.min.js?1740052416" defer></script>
+        <script src="/js/search.js?1740052416" defer></script>
+      </div>
+      <div id="R-homelinks" class="default-animation homelinks">
+        <ul>
+          <li><a class="padding" href="/index.html"><i class="fa-fw fas fa-home"></i> Home</a></li>
+        </ul>
+        <hr class="padding">
+      </div>
+      <div id="R-content-wrapper" class="highlightable">
+        <div id="R-shortcutmenu-home" class="R-sidebarmenu">
+          <ul class="enlarge morespace collapsible-menu">
+            <li class="parent " data-nav-id="/makers-workshop/index.html"><a class="padding" href="/makers-workshop/index.html">Maker&#39;s Workshop</a><ul id="R-subsections-998d4a2a0d240ce399e2bcf189f526af" class="collapsible-menu">
+            <li class="" data-nav-id="/makers-workshop/bom/index.html"><a class="padding" href="/makers-workshop/bom/index.html">Bill of Materials</a></li>
+            <li class="alwaysopen " data-nav-id="/makers-workshop/soldering/index.html"><a class="padding" href="/makers-workshop/soldering/index.html">Soldering PCB Components Task</a><ul id="R-subsections-537d6b2b38c4e24e9027d642092e0c3a" class="collapsible-menu"></ul></li>
+            <li class="active " data-nav-id="/makers-workshop/firmware/index.html"><a class="padding" href="/makers-workshop/firmware/index.html">Firmware Flashing to the Pico</a></li>
+            <li class="alwaysopen " data-nav-id="/makers-workshop/printing/index.html"><a class="padding" href="/makers-workshop/printing/index.html">3D Print a Personalised Cushion</a><ul id="R-subsections-e633d7cb17740172cc7054a3226a31dd" class="collapsible-menu"></ul></li></ul></li>
+          </ul>
+        </div>
+    
+        <div class="padding footermargin footerLangSwitch footerVariantSwitch footerVisitedLinks footerFooter showFooter"></div>
+        <div id="R-menu-footer">
+          <hr class="padding default-animation footerLangSwitch footerVariantSwitch footerVisitedLinks footerFooter showFooter">
+          <div id="R-prefooter" class="footerLangSwitch footerVariantSwitch footerVisitedLinks">
+            <ul>
+              <li id="R-select-language-container" class="footerLangSwitch">
+                <div class="padding menu-control">
+                  <i class="fa-fw fas fa-language"></i>
+                  <span>&nbsp;</span>
+                  <div class="control-style">
+                    <label class="a11y-only" for="R-select-language">Language</label>
+                    <select id="R-select-language" onchange="location = this.querySelector( this.value ).dataset.url;">
+                      <option id="R-select-language-en" value="#R-select-language-en" data-url="/makers-workshop/firmware/index.html" lang="en-us" selected></option>
+                    </select>
+                  </div>
+                  <div class="clear"></div>
+                </div>
+              </li>
+              <li id="R-select-variant-container" class="footerVariantSwitch">
+                <div class="padding menu-control">
+                  <i class="fa-fw fas fa-paint-brush"></i>
+                  <span>&nbsp;</span>
+                  <div class="control-style">
+                    <label class="a11y-only" for="R-select-variant">Theme</label>
+                    <select id="R-select-variant" onchange="window.relearn.changeVariant( this.value );">
+                      <option id="R-select-variant-blue" value="blue" selected>Blue</option>
+                    </select>
+                  </div>
+                  <div class="clear"></div>
+                </div>
+                <script>window.relearn.markVariant();</script>
+              </li>
+              <li class="footerVisitedLinks">
+                <div class="padding menu-control">
+                  <i class="fa-fw fas fa-history"></i>
+                  <span>&nbsp;</span>
+                  <div class="control-style">
+                    <button onclick="clearHistory();">Clear History</button>
+                  </div>
+                  <div class="clear"></div>
+                </div>
+              </li>
+            </ul>
+          </div>
+          <div id="R-footer" class="footerFooter showFooter">
+        <p>Built with <a href="https://github.com/McShelby/hugo-theme-relearn" title="love"><i class="fas fa-heart"></i></a> by <a href="https://gohugo.io/">Hugo</a></p>
+          </div>
+        </div>
+      </div>
+    </aside>
+    <script src="/js/clipboard.min.js?1740052416" defer></script>
+    <script src="/js/perfect-scrollbar.min.js?1740052416" defer></script>
+    <script src="/js/theme.js?1740052416" defer></script>
+  </body>
+</html>

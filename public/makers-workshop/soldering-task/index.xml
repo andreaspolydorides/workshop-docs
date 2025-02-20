@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Soldering PCB Components Task :: My New Hugo Site</title>
+    <link>http://localhost:1313/makers-workshop/soldering-task/index.html</link>
+    <description></description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <atom:link href="http://localhost:1313/makers-workshop/soldering-task/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>A refresher (or lesson!) on soldering</title>
+      <link>http://localhost:1313/makers-workshop/soldering-task/soldering-learning/soldering-learning/index.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/makers-workshop/soldering-task/soldering-learning/soldering-learning/index.html</guid>
+      <description>Tools and Parts Needed: Soldering iron Soldering wire Tip cleaner Flux Tinner Prototyping board Red cable Black cable Learning Task Instructions: Assemble the tools and components needed for this task Identify the prototyping board (shown below) Affix the cable given to you through the prototyping board Apply some flux and use the soldering iron and wire to solder the cable to the board Power off the iron, securely set aside and check the connection, here’s a good example of a good soldering joint</description>
+    </item>
+    <item>
+      <title>Soldering the PCB</title>
+      <link>http://localhost:1313/makers-workshop/soldering-task/soldering-task/index.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/makers-workshop/soldering-task/soldering-task/index.html</guid>
+      <description>Have you done the required reading? It’s here&#xA;Tools and Parts Needed: Soldering Iron Soldering Wire Tip Cleaner Flux Tinner PCB Screw Terminal (black, 2-pin) Inductor (grey cylinder, 2-pin) Soldering Task Instructions: Assemble the tools and components needed for soldering Prepare PCB for soldering Place the screw terminal as shown (see below, botw orientation) Affix the terminal on the PCB with a “helping hand” or with some masking tape Solder the terminal pins to the PCB</description>
+    </item>
+  </channel>
+</rss>

@@ -1,4 +1,10 @@
 baseURL = 'https://example.org/'
 languageCode = 'en-us'
-title = 'My New Hugo Site'
+title = 'PhD Workshop'
 theme = 'hugo-theme-relearn'
+[params]
+  themeVariant = ['blue']
+[outputs]
+  home = ['html', 'rss', 'print']
+  page = ['html', 'rss', 'print']
+  section = ['html', 'rss', 'print']
