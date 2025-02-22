@@ -25,3 +25,5 @@ weight = 1
 5. Power off the iron, securely set aside and check the connection, here’s a useful image by Adafruit^[1] that can help you judge the quality of your solder joints.
 
  ![Image by Adafruit displaying different solder joints side by side.](https://cdn-learn.adafruit.com/assets/assets/000/001/978/medium800/tools_Header_Joints.jpg?1396777967)
+
+ [1]: Psst, 

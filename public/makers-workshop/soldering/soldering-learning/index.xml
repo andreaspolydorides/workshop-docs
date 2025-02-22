@@ -2,10 +2,10 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>A refresher (or lesson!) on soldering :: PhD Workshop</title>
-    <link>https://example.org/makers-workshop/soldering/soldering-learning/index.html</link>
-    <description>Tools and Parts Needed: Soldering iron Soldering wire Tip cleaner Flux Tinner Prototyping board Red cable Black cable Learning Task Instructions: Assemble the tools and components needed for this task Identify the prototyping board (shown below) Affix the cable given to you through the prototyping board Apply some flux and use the soldering iron and wire to solder the cable to the board Power off the iron, securely set aside and check the connection, here’s a useful image by Adafruit^[1] that can help you judge the quality of your solder joints.</description>
+    <link>http://localhost:1313/makers-workshop/soldering/soldering-learning/index.html</link>
+    <description>Tools and Parts Needed: Soldering iron Soldering wire Tip cleaner Flux Tinner Prototyping board Red cable Black cable Learning Task Instructions: Assemble the tools and components needed for this task Identify the prototyping board (shown below) Affix the cable given to you through the prototyping board Apply some flux and use the soldering iron and wire to solder the cable to the board Power off the iron, securely set aside and check the connection, here’s a useful image by Adafruit^1 that can help you judge the quality of your solder joints.</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <atom:link href="https://example.org/makers-workshop/soldering/soldering-learning/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/makers-workshop/soldering/soldering-learning/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>
