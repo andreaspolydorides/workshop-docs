@@ -1,5 +1,5 @@
 +++
-title = "Maker's Workshop"
+title = "Makers Workshop"
 type = "section"
 weight = 1
 +++
@@ -10,7 +10,7 @@ This workshop is part of my PhD research in DIY assistive technology (DIY-AT). F
 The aim of this workshop is to understand how users with making experience, interact with my prototypes. Through your experience assembling this prototype we can hopefully identify any design weaknesses or different ways of doing things.
 
 ## What do I need to do before we get started?
-Please make sure to read through the participant information and complete the consent form which can be found [here](https://forms.office.com/e/cgwBuu0Yjh). You will not be able to take part without completing these.
+Please make sure to read through the participant information [here](pis.md) and complete the consent form which can be found [here](https://forms.office.com/e/cgwBuu0Yjh).
 
 ## So what happens now?
 Now we will go through three tasks needed to complete the DIY project that we believe people with making experience should be able to complete. No worries if you don't have making experience specific to each task, a learning segment is included before each task. We will begin with soldering, 
