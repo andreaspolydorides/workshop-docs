@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Maker&#39;s Workshop :: PhD Workshop</title>
+    <title>Makers Workshop :: PhD Workshop</title>
     <link>http://localhost:1313/makers-workshop/index.html</link>
     <description>This workshop is part of my PhD research in DIY assistive technology (DIY-AT). Following an interview process with multiple wheelchair users, seating comfort of manual chairs was identified as a common need. I have since designed some prototypes that are meant to be DIY (“do it yourself”). Getting these prototypes to finished designs, I need to better understand what format they need to be distributed at. Are they better served as a simple “DIY” kit? Are they simple enough to source and assemble individually by users?</description>
     <generator>Hugo</generator>

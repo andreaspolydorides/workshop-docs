@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title></title>
+    <link>http://localhost:1313/makers-workshop/pis/index.html</link>
+    <description>This workshop is being conducted as part of a UCL PhD degree. This project has been approved by the UCL Ethics Board, Project ID: UCLIC_2024_003_Rogers. All data will be handled in accordance with the General Data Protection Regulations (GDPR) and will be anonymised. If you decide to share contact information for further studies, this will be kept separate from the data collected. Only the researcher running the session will have access to the data. You will not be identifiable in any publications that may arise from this data.</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <atom:link href="http://localhost:1313/makers-workshop/pis/index.xml" rel="self" type="application/rss+xml" />
+  </channel>
+</rss>
