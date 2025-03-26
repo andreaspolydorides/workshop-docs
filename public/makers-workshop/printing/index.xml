@@ -2,16 +2,16 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>3D Print a Personalised Cushion :: DIY-AT</title>
-    <link>https://diy-at.andreaspolydorides.com/makers-workshop/printing/index.html</link>
+    <link>http://localhost:1313/makers-workshop/printing/index.html</link>
     <description>OpenCushion OpenCushion is a project that allows users to customise and 3D print wheelchair cushions using flexible materials, with the aim of evenly distributing pressure and minimising discomfort and the risk of pressure sores. The design is essentially a lattice of varying density, with areas that are subject to high pressure using a lower density lattice and vice versa. As these cushions can be made with most standard consumer-level 3D printers, they can be more affordable as well as geographically and financially accessible.</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <atom:link href="https://diy-at.andreaspolydorides.com/makers-workshop/printing/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/makers-workshop/printing/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>3D Printing Cushion Task</title>
-      <link>https://diy-at.andreaspolydorides.com/makers-workshop/printing/printing-task/index.html</link>
+      <link>http://localhost:1313/makers-workshop/printing/printing-task/index.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://diy-at.andreaspolydorides.com/makers-workshop/printing/printing-task/index.html</guid>
+      <guid>http://localhost:1313/makers-workshop/printing/printing-task/index.html</guid>
       <description>The ‘SVG Modifier’ Approach This method takes advantage of a ‘modifier geometry’ feature available in some slicers including Prusaslicer. This allows us to introduce 3D shapes which can interact with the 3D model to modify settings like speed, temperature or line widths. In addition to standard shapes like cubes and cylinders, the modifier geometry feature can also work with SVG files, which we can shape any way we need. If we look at a pressure map like the one below, we can split pressure values into areas and assign different densities to each one. If we can create SVG drawings of each area we can overlay them over our cushion 3D model as modifier geometry and create cushions that go some way toward distributing pressure. This approach is not personalised but is a step forward in improving comfort over standard cushions.</description>
     </item>
   </channel>

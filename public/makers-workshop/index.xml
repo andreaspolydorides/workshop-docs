@@ -2,37 +2,37 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>DIY-AT Workshop :: DIY-AT</title>
-    <link>https://diy-at.andreaspolydorides.com/makers-workshop/index.html</link>
+    <link>http://localhost:1313/makers-workshop/index.html</link>
     <description>A Workshop on the Making Journey of DIY-AT for Wheelchair Seating Comfort. This workshop is part of my PhD research in DIY assistive technology (DIY-AT). Following an interview process with multiple wheelchair users, seating comfort of manual chairs was identified as a common need. I have since designed some prototypes that are meant to be DIY (“do it yourself”). Getting these prototypes to finished designs, I need to better understand what format they need to be distributed at. Are they better served as a simple “DIY” kit? Are they simple enough to source and assemble individually by users?</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <atom:link href="https://diy-at.andreaspolydorides.com/makers-workshop/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/makers-workshop/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Bill of Materials</title>
-      <link>https://diy-at.andreaspolydorides.com/makers-workshop/bom/index.html</link>
+      <link>http://localhost:1313/makers-workshop/bom/index.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://diy-at.andreaspolydorides.com/makers-workshop/bom/index.html</guid>
+      <guid>http://localhost:1313/makers-workshop/bom/index.html</guid>
       <description>OpenCushion Item Name Description Quantity Link 1 Link 2 eSUN TPE 1kg For very small chairs 1 roll might be enough but 2 will ensure you have enough material in case a part fails. 2 Amazon.co.uk 3djake.uk Apart from the above you will of course need a 3D printer capable of printing flexible materials like TPU.&#xA;Loop One Item Name Description Quantity Link 1 Link 2 Raspberry Pi Pico WH The Pico WH variant includes headers, otherwise you can get a Pico W and solder the headers yourself 1 The Pi Hut Pimoroni JST-XH 2-pin connectors Links include multiple connectors, you need 8 connectors. 8 The Pi Hut Digikey B3950 Thermistors Max of 3, these come with the appropriate connectors 3 Aliexpress Amazon.co.uk DS18B20 Thermistors Max of 4, these will need to be terminated with 3-pin JST-XH connectors 4 Amazon.co.uk Aliexpress Peltier Cooler Used as the heating/cooling element 1 Amazon.co.uk Aliexpress</description>
     </item>
     <item>
       <title>Soldering PCB Components Task</title>
-      <link>https://diy-at.andreaspolydorides.com/makers-workshop/soldering/index.html</link>
+      <link>http://localhost:1313/makers-workshop/soldering/index.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://diy-at.andreaspolydorides.com/makers-workshop/soldering/index.html</guid>
+      <guid>http://localhost:1313/makers-workshop/soldering/index.html</guid>
       <description>This task will require you to hand-solder a number of components onto a PCB, simulating the process of building a design called LoopOne.&#xA;LoopOne LoopOne is an open-source design that aims to alleviate thermal discomfort among wheelchair users. It works by circulating water through a tube in the wheelchair’s cushion for a cooling or heating effect which the user can control as required. In addition to improving the user’s comfort, thermally regulating the seat temperature can minimise the risk of pressure sores.</description>
     </item>
     <item>
       <title>Firmware Flashing to the Pico</title>
-      <link>https://diy-at.andreaspolydorides.com/makers-workshop/firmware/index.html</link>
+      <link>http://localhost:1313/makers-workshop/firmware/index.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://diy-at.andreaspolydorides.com/makers-workshop/firmware/index.html</guid>
+      <guid>http://localhost:1313/makers-workshop/firmware/index.html</guid>
       <description>Tools and Parts Needed: Computer USB-A to micro-USB cable PCB NTC100K Thermistor DHT11 Humidity Sensor Uploading and Configuring Firmware: The firmware for the Raspberry Pi Pico on your PCB is based on a programming language called CircuitPython. To upload our code we need to prepare the Pico to accept CircuitPython code. If you’re using a Pico, download this, and if you’re using a Pico W, download this. If you’re unsure which Pico you have, check the picture below. Now click here to download the firmware. Keep the BOOTSEL button pressed as you connect the Pi Pico to the computer. The button is visible in the images above! The Pico should now show up as a drive in your computer’s file manager under the name “RPI-RP2” or something similar. Drag the Circuitpython (.uf2) file to the “RPI-RP2” drive. Note Make sure you drag the CircuitPython file and not the firmware. The drive should reset and should now appear as “CIRCUITPYTHON”. Now to finish off, drag the firmware file we downloaded to the “CIRCUITPYTHON” drive. Testing Firmware: In Visual Studio Code (VS Code), navigate to Extensions (Command/Ctrl+Shift+X) and install the ‘Serial Monitor’ extension by Microsoft With the Raspberry Pi Pico connected and with the code uploaded to it, open a new terminal (within VS Code) and switch to the Serial Monitor tab You should be seeing temperature values if all is going well. If you are not, check that: the Raspberry Pi Pico is showing up as a Circuitpython device, the “.py” file is in the base directory as you open it up, the code itself has print statements. e.g.: print(f&#34;Temperature: {temp:.1f}°C&#34;).</description>
     </item>
     <item>
       <title>3D Print a Personalised Cushion</title>
-      <link>https://diy-at.andreaspolydorides.com/makers-workshop/printing/index.html</link>
+      <link>http://localhost:1313/makers-workshop/printing/index.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://diy-at.andreaspolydorides.com/makers-workshop/printing/index.html</guid>
+      <guid>http://localhost:1313/makers-workshop/printing/index.html</guid>
       <description>OpenCushion OpenCushion is a project that allows users to customise and 3D print wheelchair cushions using flexible materials, with the aim of evenly distributing pressure and minimising discomfort and the risk of pressure sores. The design is essentially a lattice of varying density, with areas that are subject to high pressure using a lower density lattice and vice versa. As these cushions can be made with most standard consumer-level 3D printers, they can be more affordable as well as geographically and financially accessible.</description>
     </item>
   </channel>
