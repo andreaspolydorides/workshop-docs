@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Bill of Materials :: PhD Workshop</title>
-    <link>http://localhost:1313/makers-workshop/bom/index.html</link>
-    <description>OpenCushion Item Name Description Quantity Link 1 Link 2 eSUN TPE 1kg For very small chairs 1 roll might be enough but 2 will ensure you have enouh material in case a part fails. 2 Amazon.co.uk 3djake.uk Apart from the above you will of course need a 3D printer capable of printing flexible materials like TPU.&#xA;Loop One Item Name Description Quantity Link 1 Link 2 Raspberry Pi Pico WH WH variant includes headers, otherwise you can get W and solder yourself 1 The Pi Hut Pimoroni JST-XH 2-pin connectors Links include multiple connectors, you need 8 connectors. 8 The Pi Hut Link 2 Thermistors Max 3, these come with the appropriate connectors 3 Aliexpress Amazon.co.uk Thermistors Max 4, these will need 3-pin JST-XH connectors crimped 4 Amazon.co.uk Aliexpress Peltier Cooler Used as the heating/cooling element 1 Amazon.co.uk Aliexpress Item Name Description Quantity Link 1 Link 2 Item Name Description Quantity Link 1 Link 2</description>
+    <title>Bill of Materials :: DIY-AT</title>
+    <link>https://diy-at.andreaspolydorides.com/makers-workshop/bom/index.html</link>
+    <description>OpenCushion Item Name Description Quantity Link 1 Link 2 eSUN TPE 1kg For very small chairs 1 roll might be enough but 2 will ensure you have enough material in case a part fails. 2 Amazon.co.uk 3djake.uk Apart from the above you will of course need a 3D printer capable of printing flexible materials like TPU.&#xA;Loop One Item Name Description Quantity Link 1 Link 2 Raspberry Pi Pico WH The Pico WH variant includes headers, otherwise you can get a Pico W and solder the headers yourself 1 The Pi Hut Pimoroni JST-XH 2-pin connectors Links include multiple connectors, you need 8 connectors. 8 The Pi Hut Digikey B3950 Thermistors Max of 3, these come with the appropriate connectors 3 Aliexpress Amazon.co.uk DS18B20 Thermistors Max of 4, these will need to be terminated with 3-pin JST-XH connectors 4 Amazon.co.uk Aliexpress Peltier Cooler Used as the heating/cooling element 1 Amazon.co.uk Aliexpress</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <atom:link href="http://localhost:1313/makers-workshop/bom/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://diy-at.andreaspolydorides.com/makers-workshop/bom/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>

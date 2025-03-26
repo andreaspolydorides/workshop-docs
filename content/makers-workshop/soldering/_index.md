@@ -12,7 +12,7 @@ I've designed a custom circuit board (PCB) which handles all necessary functions
  - Heating and cooling the water (this is done through a small component called a Peltier module)
  - Circulating the water (this is done through a water pump)
  - Sensing water flow (this is a safety measure to ensure any bends in the tube do not increase pressure and put unnecessary strain on the water pump)
- - Sensing temperature and humidity (this allows us to monitor multiple points for pressure and humidity, which in turn allows the user to set up custom settings to suit their needs)
+ - Sensing temperature and humidity (this allows us to monitor multiple points for temperature and humidity, which in turn allows the user to set up custom settings to suit their needs)
  - Connecting fans (this is an optional add-on where users can choose to add air fans to either blow air through the cushion or toward the user in hot/humid weather)
  - Connecting additional sensors (this takes the form of an I2C port, which DIY-minded users can use to to incorporate additional sensors of choice)
 

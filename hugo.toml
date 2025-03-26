@@ -1,6 +1,6 @@
 baseURL = 'https://diy-at.andreaspolydorides.com'
 languageCode = 'en-us'
-title = 'PhD Workshop'
+title = 'DIY-AT'
 theme = 'hugo-theme-relearn'
 [params]
   themeVariant = ['blue']
