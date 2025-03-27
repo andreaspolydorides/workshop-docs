@@ -23,7 +23,9 @@ weight = 3
 5. Drag the Circuitpython (.uf2) file to the "RPI-RP2" drive.
 {{% notice note%}}Make sure you drag the CircuitPython file and not the firmware.{{% /notice %}}
 6. The drive should reset and should now appear as "CIRCUITPYTHON".
-7. Now to finish off, drag the firmware file we downloaded to the "CIRCUITPYTHON" drive. Choose to overwrite the existing code.py file if prompted about it.
+7. Now that our Raspberry Pi Pico is set up to run CircuitPython code, we need to install some libraries (bundles of additional code) that our code relies on. Download the adafruit libraries from here: https://circuitpython.org/libraries. Make sure they match the version of the circuitpython download from step 1. Once downloaded unzip and copy these two libraries: **adafruit_onewire** and **adafruit_ds18x20**.
+8. In the CIRCUITPYTHON drive, open the *lib* folder if it exists, create one if it does not. In the *lib* folder paste the two adafruit libraries from the bundle we just downloaded.
+9. Finally, drag the firmware file we downloaded to the "CIRCUITPYTHON" drive. Choose to overwrite the existing code.py file if prompted about it.
 
 ## Testing Firmware:
 1. In Visual Studio Code (VS Code), navigate to Extensions (Command/Ctrl+Shift+X) and install the 'Serial Monitor' extension by Microsoft
