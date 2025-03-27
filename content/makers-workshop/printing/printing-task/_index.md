@@ -40,7 +40,7 @@ This method takes advantage of a 'modifier geometry' feature available in some s
 7. While the cushions are made with TPU, the S5 printers don't handle that too well so we'll be using PLA for this study. Go ahead and select 'Generic PLA' for both Filament slots. 
 8. For print settings pick 'O.25mm DRAFT', you'll see the most progress on your print with this! Now go into 'Print Settings' > 'Layers and perimeters' and for 'Perimeters', 'Top solid layers' and 'Bottom solid layers' to 0.
 9. In the 'Infill' section of 'Print Settings', you can swap between 'Fill patterns' to see the different lattices. 'Gyroid' is particularly good for cushions.
-10. Now download {{< download_link "static/3DP-files/test.py" "cushion.stl" "here" >}} cushion model, and import it to Prusaslicer. Resize it to make it fit.
+10. Now download {{< download_link "static/3DP-files/cushion.stl" "cushion.stl" "here" >}} cushion model, and import it to Prusaslicer. Resize it to make it fit.
 11. At this point you can click slice to check you are on the right track. The lattice should be visible from all angles.
 12. Right-Click on the cushion model and select 'Add modifier' > 'SVG' and load the SVG file you created in Inkscape.
 13. Left-Click on the SVG and change its height (Z axis) to match or exceed the height of the cushion.
